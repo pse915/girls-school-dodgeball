@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 17
+  productGUID: 7a3b2c1d4e5f60718293a4b5c6d7e8f
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 0
+  defaultScreenOrientation: 4
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: GirlsSchool
+  productName: GirlsSchool Dodgeball
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  m_SplashScreenBackgroundColor: {r: 0.1, g: 0.15, b: 0.3, a: 1}
+  m_ShowUnitySplashScreen: 0
+  m_ShowUnitySplashLogo: 0
+  m_SplashScreenOverlayOpacity: 1
+  m_SplashScreenAnimation: 1
+  m_SplashScreenDrawMode: 0
+  m_SplashScreenBackgroundPortrait: {fileID: 0}
+  m_SplashScreenBackgroundLandscape: {fileID: 0}
+  m_SplashScreenLogoStyle: 1
+  m_SplashScreenLogos: []
+  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_HolographicTrackingLossScreen: {fileID: 0}
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
+  defaultScreenWidthWeb: 1280
+  defaultScreenHeightWeb: 720
+  m_StereoRenderingPath: 0
+  m_ActiveColorSpace: 1
+  m_MTRendering: 1
+  m_ActiveGraphicsAPIs:
+  - 2
+  - 11
+  m_ActiveGraphicsAPI_Mac:
+  - 4
+  - 2
+  m_ActiveGraphicsAPI_Web:
+  - 11
+  applicationIdentifier:
+    Standalone: com.girlsschool.dodgeball
+    WebGL: com.girlsschool.dodgeball
+  buildNumber:
+    Standalone: 0
+    WebGL: 0
+  AndroidBundleVersionCode: 1
+  runInBackground: 1
+  captureSingleScreen: 0
+  muteNotificationSounds: 0
+  apiCompatibilityLevelPerPlatform:
+    WebGL: 2
+  scriptingBackend:
+    WebGL: 1
