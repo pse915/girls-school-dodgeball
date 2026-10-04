@@ -1,0 +1,33 @@
+{
+  "name": "SchoolInput",
+  "maps": [
+    {
+      "name": "Player",
+      "actions": [
+        { "name": "Move", "type": "Value", "expectedControlType": "Vector2" },
+        { "name": "Look", "type": "Value", "expectedControlType": "Vector2" },
+        { "name": "Sprint", "type": "Button" },
+        { "name": "Jump", "type": "Button" },
+        { "name": "Dodge", "type": "Button" },
+        { "name": "Throw", "type": "Button" },
+        { "name": "DashThrow", "type": "Button" },
+        { "name": "Pickup", "type": "Button" },
+        { "name": "Zoom", "type": "Value", "expectedControlType": "Vector2" }
+      ],
+      "bindings": [
+        { "action": "Move", "path": "2DVector: WASD" },
+        { "action": "Move", "path": "Gamepad/leftStick" },
+        { "action": "Look", "path": "Mouse/delta" },
+        { "action": "Look", "path": "Gamepad/rightStick" },
+        { "action": "Sprint", "path": "Keyboard/shift" },
+        { "action": "Jump", "path": "Keyboard/space" },
+        { "action": "Jump", "path": "Gamepad/buttonSouth" },
+        { "action": "Dodge", "path": "Keyboard/c" },
+        { "action": "Throw", "path": "Mouse/leftButton" },
+        { "action": "DashThrow", "path": "Mouse/rightButton" },
+        { "action": "Pickup", "path": "Keyboard/e" },
+        { "action": "Zoom", "path": "Mouse/scroll" }
+      ]
+    }
+  ]
+}
