@@ -26,7 +26,7 @@ public class SchoolSceneBootstrap : MonoBehaviour
         if (!FindObjectOfType<MatchRules>()) new GameObject("Rules").AddComponent<MatchRules>();
         GameUIBuilder _ = FindObjectOfType<GameUIBuilder>();
         if (!_) UnityEditor.EditorApplication.ExecuteMenuItem("School/Build Game UI");
-        if (!FindObjectOfType<AnimatorBuilder>()) { }
+       
 
         // 4. 공 프리팹 (Quaternius 없을 때 빨간 피구공)
         var ball = FindObjectOfType<Dodgeball>();
