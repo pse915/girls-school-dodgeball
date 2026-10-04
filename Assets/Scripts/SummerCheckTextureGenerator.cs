@@ -60,7 +60,7 @@ public static class SummerCheckTextureGenerator
         var preset = AssetDatabase.LoadAssetAtPath<UniformColors>("Assets/SchoolArt/SummerUniform_Habok.asset");
         if (!preset) { Debug.LogError("preset 없음. 먼저 School/Create Summer Uniform Preset 실행"); return; }
         var tex = GetOrCreate(preset);
-        byte[] png = tex.EncodeToPNG();
+        byte[] png = UnityEngine.ImageConversion.EncodeToPNG(tex);
         Directory.CreateDirectory("Assets/SchoolArt");
         File.WriteAllBytes("Assets/SchoolArt/SummerCheck_Tartan.png", png);
         AssetDatabase.Refresh();
